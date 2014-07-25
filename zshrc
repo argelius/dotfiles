@@ -1,10 +1,3 @@
-# 256 color terminal
-if [ -e /usr/share/terminfo/x/xterm-256color ]; then
-        export TERM='xterm-256color'
-else
-        export TERM='xterm-color'
-fi
-
 # TMUX
 if which tmux 2>&1 >/dev/null; then
     #if not inside a tmux session, and if no session is started, start a new session
@@ -48,7 +41,3 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
-
-case "$TERM" in
-       xterm*) TERM-xterm-256color
-esac 
