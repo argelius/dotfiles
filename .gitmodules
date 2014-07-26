@@ -10,3 +10,6 @@
 [submodule "vim/bundle/vim-snippets"]
 	path = vim/bundle/vim-snippets
 	url = http://github.com/argelius/vim-snippets
+[submodule "vim/bundle/vim-unimpaired"]
+	path = vim/bundle/vim-unimpaired
+	url = http://github.com/tpope/vim-unimpaired
