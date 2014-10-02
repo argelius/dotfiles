@@ -7,6 +7,7 @@ fi
 # Android SDK
 export ANDROID_HOME=/opt/android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
