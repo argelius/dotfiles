@@ -2,10 +2,11 @@ set nocompatible
 set backspace=indent,eol,start
 
 execute pathogen#infect()
-syntax on
+syntax enable
 filetype plugin indent on
 
-colorscheme distinguished
+set background=dark
+colorscheme solarized
 hi Normal ctermfg=252 ctermbg=none
 
 let g:snips_author='Andreas Argelius'
