@@ -20,3 +20,6 @@ set expandtab
 
 " associate *.foo with php filetype
 au BufRead,BufNewFile *.es6 setfiletype javascript
+au BufRead,BufNewFile *.vue setfiletype html
+
+set noswapfile

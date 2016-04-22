@@ -7,7 +7,7 @@ fi
 # Android SDK
 export ANDROID_HOME=/opt/android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # OSX path
 export PATH=$PATH:/opt/local/bin
@@ -95,3 +95,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export NVM_DIR="/home/andreas/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
