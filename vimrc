@@ -24,4 +24,4 @@ au BufRead,BufNewFile *.vue setfiletype html
 
 set noswapfile
 
-" let g:syntastic_javascript_checkers = ['eslint']
+let g:user_emmet_leader_key='<C-Z>'
