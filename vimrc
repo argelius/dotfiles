@@ -23,5 +23,3 @@ au BufRead,BufNewFile *.es6 setfiletype javascript
 au BufRead,BufNewFile *.vue setfiletype html
 
 set noswapfile
-
-let g:user_emmet_leader_key='<C-Z>'
