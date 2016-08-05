@@ -23,3 +23,5 @@ au BufRead,BufNewFile *.es6 setfiletype javascript
 au BufRead,BufNewFile *.vue setfiletype html
 
 set noswapfile
+
+" let g:syntastic_javascript_checkers = ['eslint']
