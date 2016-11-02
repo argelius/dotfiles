@@ -23,3 +23,13 @@ au BufRead,BufNewFile *.es6 setfiletype javascript
 au BufRead,BufNewFile *.vue setfiletype html
 
 set noswapfile
+
+" Emmet key
+map . <C-Y>,
+
+" Unbind arrow
+for prefix in ['i', 'n', 'v']
+  for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+    exe prefix . "noremap " . key . " <Nop>"
+  endfor
+endfor
