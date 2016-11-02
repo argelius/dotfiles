@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/andreas/Documents/OnsenUI/examples'
-let g:netrw_dirhist_2='/home/andreas/Documents/OnsenUI/examples/pull_hook'
-let g:netrw_dirhist_3='/home/andreas/Documents/OnsenUI/core/src/elements'
-let g:netrw_dirhist_4='/home/andreas/Documents/OnsenUI/test/e2e/pullHook'
-let g:netrw_dirhist_5='/home/andreas/Documents/node-js-getting-started'
-let g:netrw_dirhist_6='/home/andreas/Documents/testdiag/www/js'
+let g:netrw_dirhist_cnt =0
