@@ -1,2 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/andreas/Documents/angular2-onsenui-pokedex/src/app'
+let g:netrw_dirhist_2='/home/andreas/Documents/angular2-onsenui-pokedex/src'
+let g:netrw_dirhist_3='/home/andreas/Documents/angular2-onsenui-pokedex/node_modules/angular2-onsenui'

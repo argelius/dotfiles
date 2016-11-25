@@ -98,3 +98,5 @@ export NVM_DIR="/home/andreas/.nvm"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$PATH"

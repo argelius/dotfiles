@@ -33,3 +33,19 @@ for prefix in ['i', 'n', 'v']
     exe prefix . "noremap " . key . " <Nop>"
   endfor
 endfor
+
+" Move in wrapped lines
+nnoremap <C-k> gk
+nnoremap <C-j> gj
+
+" Move line
+nnoremap <C-J> :m+<CR>==
+nnoremap <C-K> :m-2<CR>==
+
+" Move cursor
+nnoremap K H
+nnoremap H J
+nnoremap J L
+
+" Clipboard
+set clipboard=unnamedplus
