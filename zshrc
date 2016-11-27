@@ -1,9 +1,3 @@
-# TMUX
-if which tmux 2>&1 >/dev/null; then
-    #if not inside a tmux session, and if no session is started, start a new session
-    test -z "$TMUX" && export TERM=screen-256color && ( tmux attach || tmux new-session)
-fi
-
 # Android SDK
 export ANDROID_HOME=/opt/android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
