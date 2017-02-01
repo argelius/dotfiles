@@ -94,3 +94,9 @@ export NVM_DIR="/home/andreas/.nvm"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+export GOOGLE_APPLICATION_CREDENTIALS=$HOME/Documents/abematv-e4f3f4609658.json
