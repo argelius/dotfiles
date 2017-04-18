@@ -48,7 +48,7 @@ nnoremap H J
 nnoremap J L
 
 " Clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -65,4 +65,8 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint', 'flow']
-let g:syntastic_typescript_checkers = ['tslint']
+let g:syntastic_typescript_checkers = ['tsuquyomi', 'tslint']
+let g:syntastic_typescript_tsc_args=['--version']
+
+" Tsuquyomi
+let g:tsuquyomi_disable_quickfix = 1

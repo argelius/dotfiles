@@ -1,9 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/a14556/Documents/abema-web/src/messages/ja'
-let g:netrw_dirhist_2='/Users/a14556/Documents/abema-web/src/components/Atoms'
-let g:netrw_dirhist_3='/Users/a14556/Documents/abema-web/src/components/Atoms/Video'
-let g:netrw_dirhist_4='/Users/a14556/Documents/abema-web/src/components/Molecules/CodeInputForm'
-let g:netrw_dirhist_5='/Users/a14556/Documents/abema-web/src/components/Molecules'
-let g:netrw_dirhist_6='/Users/a14556/dotfiles/vim/bundle/vim-flow'
-let g:netrw_dirhist_7='/Users/a14556/Documents/abema-web'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/a14556/Documents/abema-web/src/decls'
+let g:netrw_dirhist_2='/Users/a14556/Documents/abema-web/src'
+let g:netrw_dirhist_3='/Users/a14556/Documents/abema-web'
+let g:netrw_dirhist_4='/Users/a14556/Documents/abema-web/node_modules'
+let g:netrw_dirhist_5='/Users/a14556/Documents/abema-web/node_modules/pagination-object-generator'
