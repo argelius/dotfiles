@@ -24,9 +24,6 @@ au BufRead,BufNewFile *.vue setfiletype html
 
 set noswapfile
 
-" Emmet key
-map . <C-Y>,
-
 " Unbind arrow
 for prefix in ['i', 'n', 'v']
   for key in ['<Up>', '<Down>', '<Left>', '<Right>']
@@ -67,6 +64,3 @@ let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint', 'flow']
 let g:syntastic_typescript_checkers = ['tsuquyomi', 'tslint']
 let g:syntastic_typescript_tsc_args=['--version']
-
-" Tsuquyomi
-let g:tsuquyomi_disable_quickfix = 1
