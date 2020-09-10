@@ -1,14 +1,3 @@
-# Android SDK
-export ANDROID_HOME=/opt/android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-
-# Android
-export PATH=$PATH:/home/andreas/android/platform-tools
-
-# OSX path
-export PATH=$PATH:/opt/local/bin
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -91,57 +80,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 
-export NVM_DIR="/home/andreas/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export PATH="$HOME/.yarn/bin:$PATH"
-
-# Go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-
-# Binaryen
-export PATH=$PATH:/home/andreas/Documents/binaryen/bin
-
-# Steam
-alias steam="LD_PRELOAD='/usr/$LIB/libstdc++.so.6' LIBGL_DRI3_DISABLE=1 steam"
-
-export PATH="$PATH:$HOME/miniconda3/bin"
-
-# Composer
-export PATH=$PATH:~/.config/composer/vendor/bin
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/sls.zsh ]] && . /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/slss.zsh ]] && . /home/andreas/Documents/minutes-watched/node_modules/tabtab/.completions/slss.zsh
-
-# Go
-export PATH=/usr/lib/go-1.11/bin:$PATH
-
-export GPGKEY=074B8647CF40523F
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/andreas/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/andreas/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/andreas/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/andreas/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"
+
+source ./.zshrc.local
