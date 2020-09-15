@@ -80,6 +80,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 
-PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"
+# PROMPT="$fg[cyan]%}$USER@%{$fg[blue]%}%m ${PROMPT}"
 
-source ./.zshrc.local
+source ~/.zshrc.local
